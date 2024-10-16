@@ -12,13 +12,13 @@ for (i = 0; i < Math.floor(study_data.length / 10); i++) {
   for (i = 0; i < 10; i++) {
     clickElement('.CardItem .card-cover');
     setTimeout(() => clickElement('.btn-success'), 200);
-    setTimeout(() => console.log("뷁"), 500);
+    setTimeout(() => console.log("뷁"), audioTimer);
   }
 }
 if (study.data.length % 10 < 5) {
   for (i = 0; i < study_data.length % 10; i++) {
     clickElement('.CardItem .card-cover');
     setTimeout(() => clickElement('.btn-success'), 200);
-    setTimeout(() => console.log("뷁"), 500);
+    setTimeout(() => console.log("뷁"), audioTimer);
   }
 }
