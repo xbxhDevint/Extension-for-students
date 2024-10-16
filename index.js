@@ -9,7 +9,7 @@ function clickElement(selector) {
     }
 }
 
-for (i = 0;, i < Math.floor(study.data.length / 10);, i++) {
+for (i = 0; i < Math.floor(study.data.length / 10); i++) {
   for (i = 0; i < 10; i++) {
     clickElement('.CardItem .card-cover');
     setTimeout(() => clickElement('.btn-success'), 150);
@@ -17,7 +17,7 @@ for (i = 0;, i < Math.floor(study.data.length / 10);, i++) {
   }
 }
 if (study.data.length % 10 < 5) {
-  for (i = 0;, i < study.data.length % 10;, i++) {
+  for (i = 0; i < study.data.length % 10; i++) {
     clickElement('.CardItem .card-cover');
     setTimeout(() => clickElement('.btn-success'), 150);
     setTimeout(, 150);
