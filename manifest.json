@@ -1,0 +1,11 @@
+{
+  "manifest_version" : 3,
+  "name" : "학생을 위한 확장프로그램",
+  "version" : 1.0,
+  "content_scripts" : [
+    }
+      "matches" : ["https://www.classcard.net/Memorize/*"],
+    "js" : ["index.js"]
+    }
+  ]
+}
