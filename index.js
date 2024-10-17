@@ -1,4 +1,4 @@
-function clickElement(selector) {
+/*function clickElement(selector) {
     const element = document.querySelector(selector);
     if (element) {
         element.click();
@@ -22,4 +22,8 @@ if (study.data.length % 10 < 5) {
     setTimeout(() => clickElement('.btn-success'), 200);
     setTimeout(() => console.log("뷁"), audioTimer);
   }
+}
+*/
+for (i = 0; i < 10; i++){
+    alert('qnpfr');
 }
