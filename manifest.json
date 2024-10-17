@@ -14,5 +14,11 @@
       "default_title" : "classcard_skip"
       "default_popup": "popup.html"
     }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.classcard.net/Memorize/*"],
+      "js": ["index.js"]
+    }
   ]
 }
