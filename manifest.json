@@ -8,10 +8,11 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-  "content_scripts" : [
+  "actions" : [
     {
-      "matches" : ["https://www.classcard.net/Memorize/*"],
-    "js" : ["index.js"]
+      "default_icon": "images/icon-32.png"
+      "default_title" : "classcard_skip"
+      "default_popup": "popup.html"
     }
   ]
 }
